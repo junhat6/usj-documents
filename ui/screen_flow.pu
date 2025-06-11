@@ -1,0 +1,24 @@
+@startuml
+!define RECTANGLE class
+skinparam classBackgroundColor #FDFDFD
+skinparam classBorderColor     #AAAAAA
+
+RECTANGLE Entry <<start>> 
+RECTANGLE FriendList
+RECTANGLE FriendReg
+RECTANGLE RoomList
+RECTANGLE RoomDetail
+RECTANGLE Chat
+RECTANGLE Notifications
+RECTANGLE ProfileView
+RECTANGLE ProfileEdit
+
+Entry --> FriendList
+FriendList --> FriendReg
+Entry --> RoomList
+RoomList --> RoomDetail
+RoomDetail --> Chat
+RoomDetail --> Notifications
+RoomDetail --> ProfileView
+ProfileView --> ProfileEdit
+@enduml
