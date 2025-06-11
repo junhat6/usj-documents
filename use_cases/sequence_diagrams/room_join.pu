@@ -1,0 +1,27 @@
+@startuml
+actor "参加者" as Participant
+participant "フロントエンド\n(UI)" as Frontend
+participant "バックエンド\n(API)"   as Backend
+database "データベース"            as DB
+
+Participant -> Frontend : ルーム一覧画面を表示
+Frontend -> Backend : GET /rooms?filters…
+Backend -> DB : SELECT * FROM rooms WHERE …
+DB --> Backend : rooms list
+Backend -> Frontend : 200 OK\n[{roomId, tags, members, …}, …]
+Frontend -> Participant : ルーム一覧表示
+
+Participant -> Frontend : 参加したいルームを選択
+Frontend -> Backend : POST /rooms/{roomId}/join
+Backend -> DB : INSERT INTO room_members (roomId, userId)
+DB --> Backend : 成功レスポンス
+Backend -> Frontend : 200 OK\n{roomId, userId, …}
+Frontend -> Participant : 参加完了通知
+
+Frontend -> Backend : GET /rooms/{roomId}/members
+Backend -> DB : SELECT * FROM room_members WHERE roomId=…
+DB --> Backend : member list
+Backend -> Frontend : 200 OK\n[{userId, profile…}, …]
+Frontend -> Participant : メンバー一覧更新
+
+@enduml

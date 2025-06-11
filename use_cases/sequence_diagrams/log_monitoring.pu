@@ -1,0 +1,22 @@
+@startuml
+actor "運営管理者" as Admin
+participant "管理画面\n(UI)"         as AdminUI
+participant "バックエンド\n(API)"     as Backend
+database "ログデータベース"         as LogDB
+participant "アラートサービス\n(Monitor)" as Monitor
+
+== ログ閲覧フロー ==
+Admin -> AdminUI : 管理ダッシュボードを開く
+AdminUI -> Backend     : GET /admin/logs?level=&since=
+Backend -> LogDB       : SELECT * FROM logs WHERE …
+LogDB --> Backend      : ログ一覧
+Backend -> AdminUI     : 200 OK\n[{timestamp, level, message}, …]
+AdminUI -> Admin       : ログ表示
+
+== リアルタイムアラートフロー ==
+Monitor -> Backend     : POST /admin/logs/alerts\n{errorEvent}
+Backend -> Monitor     : ACK
+Monitor -> AdminUI     : WebSocket PUSH\n{alert: “重大エラー発生”}
+AdminUI -> Admin       : アラート表示
+
+@enduml
