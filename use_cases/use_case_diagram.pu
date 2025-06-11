@@ -1,0 +1,37 @@
+# 3. ユースケース図（Use Case Diagram）
+
+```plantuml
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+
+actor "募集者" as Recruiter
+actor "参加者" as Participant 
+actor "運営管理者" as Admin
+
+rectangle "USJマッチングアプリ" {
+    (ルーム作成) as UC1
+    (チャット/通知) as UC2
+    (フレンド登録) as UC3
+    (プロフィール閲覧) as UC4
+    (ルーム参加) as UC5
+    (プロフィール編集) as UC6
+    (募集ルーム検索) as UC7
+    (ログ監視) as UC8
+}
+
+Recruiter --> UC1
+Recruiter --> UC2
+Recruiter --> UC4
+Recruiter --> UC6
+
+UC2 <-- Participant
+UC3 <-- Participant
+UC4 <-- Participant
+UC5 <-- Participant
+UC6 <-- Participant
+UC7 <-- Participant
+
+Admin --> UC8
+
+@enduml

@@ -1,0 +1,17 @@
+@startuml
+actor "募集者" as Recruiter
+participant "フロントエンド\n(UI)" as Frontend
+participant "バックエンド\n(API)"   as Backend
+database "データベース"            as DB
+
+Recruiter -> Frontend : ルーム作成画面を表示
+Frontend -> Recruiter : 入力フォーム提示
+
+Recruiter -> Frontend : ルーム情報入力（人数, タグ, アトラクション）
+Frontend -> Backend : POST /rooms\n{min, max, tags, attraction}
+Backend -> DB : INSERT INTO rooms (…)
+DB --> Backend : 成功レスポンス
+Backend -> Frontend : 201 Created\n{roomId, …}
+Frontend -> Recruiter : ルームID表示／共有用QR生成
+
+@enduml
