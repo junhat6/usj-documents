@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ui/screen_flow.md",
+                "file": "notes/無題のファイル.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "screen_flow"
+              "title": "無題のファイル"
             }
           }
         ]
@@ -194,22 +194,24 @@
   },
   "active": "d2dc6b0bac50fa40",
   "lastOpenFiles": [
-    "use_cases/sequence_diagrams/room_search.md",
+    "use_cases/sequence_diagrams/auth.md",
+    "notes/無題のファイル.md",
+    "notes",
+    "ui/screen_flow.md",
+    "requirements/requirements.md",
+    "users/stakeholders.md",
+    "users/personas.md",
+    "use_cases/sequence_diagrams/friend_registration.md",
+    "use_cases/sequence_diagrams/chat.md",
     "use_cases/sequence_diagrams_overview.md",
+    "use_cases/use_case_diagram.md",
+    "use_cases/sequence_diagrams/room_search.md",
     "use_cases/sequence_diagrams/room_join.md",
     "use_cases/sequence_diagrams/profile_view.md",
     "use_cases/sequence_diagrams/notification.md",
-    "use_cases/sequence_diagrams/auth.md",
-    "ui/screen_flow.md",
     "use_cases/sequence_diagrams/profile_edit.md",
     "use_cases/sequence_diagrams/sequence_diagrams_overview.md",
     "use_cases/sequence_diagrams/log_monitoring.md",
-    "use_cases/sequence_diagrams/friend_registration.md",
-    "use_cases/sequence_diagrams/chat.md",
-    "use_cases/sequence_diagrams/room_creation.md",
-    "requirements/requirements.md",
-    "use_cases/use_case_diagram.md",
-    "users/stakeholders.md",
-    "users/personas.md"
+    "use_cases/sequence_diagrams/room_creation.md"
   ]
 }
