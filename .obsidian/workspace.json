@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/無題のファイル.md",
+                "file": "notes/JWT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "無題のファイル"
+              "title": "JWT"
             }
           }
         ]
@@ -195,7 +195,7 @@
   "active": "d2dc6b0bac50fa40",
   "lastOpenFiles": [
     "use_cases/sequence_diagrams/auth.md",
-    "notes/無題のファイル.md",
+    "notes/JWT.md",
     "notes",
     "ui/screen_flow.md",
     "requirements/requirements.md",
