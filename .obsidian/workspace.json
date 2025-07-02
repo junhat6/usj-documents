@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "requirements/要件定義書.md",
+                "file": "JunichiHattori/2025-06-29.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "要件定義書"
+              "title": "2025-06-29"
             }
           }
         ]
@@ -194,6 +194,19 @@
   },
   "active": "d2dc6b0bac50fa40",
   "lastOpenFiles": [
+    "JunichiHattori/2025-06-30.md",
+    "企画書全般(担当：Fuku)/企画書テンプレート.md",
+    "JunichiHattori/群馬書類選考用.md",
+    "企画書全般(担当：Fuku)/ペルソナ設定テンプレーと.md",
+    "requirements/要件定義書.md",
+    "企画書全般(担当：Fuku)",
+    "JunichiHattori/2025-06-29.md",
+    "JunichiHattori/フロントエンドリファクタリング実装/エラー系の機能強化.md",
+    "JunichiHattori/フロントエンドリファクタリング実装/無題のファイル.md",
+    "JunichiHattori/フロントエンドリファクタリング実装/コンポーネントの分割.md",
+    "JunichiHattori/フロントエンドリファクタリング実装/スタイルシステム.md",
+    "JunichiHattori/フロントエンドリファクタリング実装",
+    "JunichiHattori",
     "users/personas.md",
     "use_cases/sequence_diagrams/chat.md",
     "use_cases/sequence_diagrams/auth.md",
@@ -202,7 +215,6 @@
     "use_cases/use_case_diagram.md",
     "ui/screen_flow.md",
     "users/stakeholders.md",
-    "requirements/要件定義書.md",
     "notes/JWT.md",
     "notes",
     "use_cases/sequence_diagrams/friend_registration.md",
@@ -211,7 +223,6 @@
     "use_cases/sequence_diagrams/notification.md",
     "use_cases/sequence_diagrams/profile_edit.md",
     "use_cases/sequence_diagrams/sequence_diagrams_overview.md",
-    "use_cases/sequence_diagrams/log_monitoring.md",
-    "use_cases/sequence_diagrams/room_creation.md"
+    "use_cases/sequence_diagrams/log_monitoring.md"
   ]
 }
