@@ -39,14 +39,14 @@
             "id": "9af003fcb89a5908",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/app.json",
-                "bFile": ".obsidian/app.json",
-                "aRef": ""
+                "file": "企画書全般(担当：Fuku)/企画書テンプレート.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: app.json"
+              "icon": "lucide-file",
+              "title": "企画書テンプレート"
             }
           }
         ],
@@ -82,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#USJ好きと繋がりたい）を使って、同行者募集や雑談、体験シェアなどを行うSNS。USJ好きのコミュニティも一定数存在し、日常的な発信・つながりの場として利用されている。",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -103,7 +103,8 @@
               "title": "ブックマーク"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -221,7 +222,7 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "9af003fcb89a5908",
+  "active": "d64a4946cd909d17",
   "lastOpenFiles": [
     "企画書全般(担当：Fuku)/企画書テンプレート.md",
     "企画書全般(担当：Fuku)/ペルソナ4.md",
