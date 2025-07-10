@@ -3,5 +3,6 @@
   "obsidian-git",
   "github-sync",
   "mermaid-tools",
-  "obsidian-plantuml"
+  "obsidian-plantuml",
+  "obsidian-vimrc-support"
 ]
