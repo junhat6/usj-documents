@@ -103,8 +103,7 @@
               "title": "ブックマーク"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -222,15 +221,15 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "d64a4946cd909d17",
+  "active": "9af003fcb89a5908",
   "lastOpenFiles": [
-    "企画書全般(担当：Fuku)/企画書テンプレート.md",
-    "企画書全般(担当：Fuku)/ペルソナ4.md",
+    "企画書全般(担当：Fuku)/ペルソナ1.md",
     "企画書全般(担当：Fuku)/ペルソナ3.md",
+    "企画書全般(担当：Fuku)/ペルソナ2.md",
+    "企画書全般(担当：Fuku)/ペルソナ4.md",
+    "企画書全般(担当：Fuku)/企画書テンプレート.md",
     "conflict-files-obsidian-git.md",
     "企画書全般(担当：Fuku)/ペルソナテンプレ.md",
-    "企画書全般(担当：Fuku)/ペルソナ1.md",
-    "企画書全般(担当：Fuku)/ペルソナ2.md",
     "requirements/要件定義書.md",
     "ui/screen_flow.md",
     "use_cases/sequence_diagrams/friend_registration.md",
